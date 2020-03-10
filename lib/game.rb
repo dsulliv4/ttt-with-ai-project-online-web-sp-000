@@ -1,3 +1,3 @@
 class Game
- attr_accessor :board
+ attr_reader :board, :player_1, :player_2
 end
